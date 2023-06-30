@@ -1,0 +1,120 @@
+.error_code {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.verify_text{
+    color: #5e72e4;
+    font-weight: 500;
+}
+.users_admin_image img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+
+}
+#profile_image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.notifications_place{
+    max-height: 500px;
+    overflow-y: auto;
+}
+.battle_show_user_image{
+    width: fit-content;
+    border-radius: 50%;
+    border: 2px solid #11cdef;
+    overflow: hidden;
+    display: block;
+}
+.battle_show_user_image img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+.table-user a{
+    color: #525f7f;
+}
+.rounded-circle-avatar img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+.rounded-circle-avatar{
+    border-radius: 50%;
+}
+.error_code h1 {
+    color: white;
+    font-size: 100px;
+}
+
+.custom-toggle input:disabled + .custom-toggle-slider{
+    border: 1px solid #5e72e4 !important;
+}
+.dataTables_length{
+    display: inline-block;
+}
+table.dataTable tbody>tr.selected , table.dataTable tbody>tr>.selected{
+    background-color: #b2cee6d1 !important;
+}
+table.dataTable tbody>tr.selected .custom-toggle-slider:after, table.dataTable tbody>tr>.selected .custom-toggle-slider:after{
+    color: white !important;
+}
+.remove_btn_administrator{
+    color: red;
+}
+.edit_btn_administrator{
+    color: #fb6340 !important;
+}
+
+.drop_delete span , .drop_show span , .drop_edit span{
+    float: right;
+    font-size: 20px;
+}
+
+.drop_delete ,.drop_delete:hover {
+    color:red!important;
+}
+
+.drop_show ,.drop_show:hover {
+    color:green!important;
+}
+
+.drop_edit , .drop_edit:hover {
+    color:#ffc107!important;
+}
+
+
+.admin_login_header {
+    z-index: 999;
+    width: 100%;
+    background-color: transparent;
+}
+
+.login_header_link {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.notifications_icon {
+    position: relative;
+}
+
+.notifications_icon .badge {
+    position: absolute;
+    top: -9px;
+    right: 5px;
+    padding: 6px 7px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+}
+
